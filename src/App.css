@@ -1,0 +1,44 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.header {
+  display: flex;
+  margin-top: 10px;
+}
+.header .logo img {
+  width: 80px;
+  margin-right: 20px;
+}
+.tabs ul {
+  display: flex !important;
+  justify-content: space-around;
+  width: 400px;
+  list-style: none;
+}
+.tabs ul li {
+  cursor: pointer;
+}
+.login button {
+  width: 120px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login button:not(:first-child) {
+  margin-left: 20px;
+  border: none;
+}
